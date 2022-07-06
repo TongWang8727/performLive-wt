@@ -1,26 +1,27 @@
-import Logo from "../../../assets/Group 1825.png";
-import Menu from "../../../assets/Group 1823.png";
-import Cart from "../../../assets/Group 1804.png";
+import Logo from "../../../assets/Logo.png";
+import Menu from "../../../assets/Menu.png";
+import Cart from "../../../assets/Cart.png";
 import "./style.css";
 import HeaderSearch from "../../HeaderSearch";
 import IconButton from "../../Button/IconButton";
+import Add from "../../../assets/Add.png"
 
 export default function HomeHeader() {
   return (
     <>
-      <div className="homeheader-frame">
-        <div className="homeheader-left">
-          <div className="homeheader-left-menu"><img src={Menu} alt="" /></div>
-          <div className="homeheader-left-logo"><img src={Logo} alt=""/></div>
+      <div className="home-header-frame">
+        <div className="home-header-left">
+          <div className="home-header-left-menu"><img src={Menu} alt="" /></div>
+          <div className="home-header-left-logo"><img src={Logo} alt=""/></div>
         </div>
         <div>
             <HeaderSearch/>
         </div>
-        <div className="homeheader-right-cart">
+        <div className="home-header-right-cart">
             <img src={Cart} alt=""/>
         </div>
-        <div className="homeheader-redbtn">
-            <IconButton/>
+        <div className="home-header-redbtn">
+            <IconButton style='left' value='New Performance' src={Add}/>
         </div>
 
       </div>

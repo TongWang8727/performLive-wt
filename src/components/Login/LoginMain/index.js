@@ -42,8 +42,8 @@ export default function LoginMain() {
   }
   return (
     <>
-      <div className="loginmain-frame">
-        <div className="loginmain-context">
+      <div className="login-main-frame">
+        <div className="login-main-context">
           {isLogin && (
             <HelloAgain
               onClick={handleForgotPassword}

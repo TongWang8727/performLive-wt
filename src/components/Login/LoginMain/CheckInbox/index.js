@@ -11,8 +11,8 @@ export default function CheckYourInbox({onClick}) {
             <TextNotice value='Check your email for a link to reset your password. If it doesn’t appear within a few minutes, check your spam folder.' />
         </div>
         <div>
-            <RedButton value='Return to Login' id='Return-to-Login' onClick={onClick}/></div>
-        <div></div>
+            <RedButton value='Return to Login' id='Return-to-Login' onClick={onClick}/>
+        </div>
     </>)
 
 }

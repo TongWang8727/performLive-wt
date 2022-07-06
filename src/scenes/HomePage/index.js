@@ -1,8 +1,8 @@
 import HomeHeader from '../../components/HomePage/HomeHeader';
 
 
-import './style.css'
-export default function Login() {
+// import './style.css'
+export default function HomePage() {
   return (
     <>
       <div>

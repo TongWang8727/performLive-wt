@@ -1,4 +1,4 @@
-.loginheader-search-frame{
+.login-header-search-frame{
     box-sizing: border-box;
     border: #C3C9D2 1px solid;
     height: 33px;
@@ -16,7 +16,7 @@
 
 }
 
-.loginheader-search-input{
+.login-header-search-input{
     border:none;
     margin-left: 10px;
     font-family: 'Graphik';

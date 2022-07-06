@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Search from "../../assets/Group 2048.png";
+import Search from "../../assets/Search.png";
 import './style.css'
 export default function HeaderSearch() {
     const [value,setValue]=useState('')
@@ -9,9 +9,9 @@ export default function HeaderSearch() {
     }
   return (
     <>
-      <div className="loginheader-search-frame">
+      <div className="login-header-search-frame">
         <span><img src={Search} alt=''/></span>
-        <span><input value={value} placeholder='Search' onChange={handleSearchChange} className='loginheader-search-input'/></span>
+        <span><input value={value} placeholder='Search' onChange={handleSearchChange} className='login-header-search-input'/></span>
       </div>
     </>
   );

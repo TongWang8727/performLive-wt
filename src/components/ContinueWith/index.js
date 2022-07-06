@@ -1,8 +1,8 @@
-import INS from "../../assets/Group 263.png";
-import FaceBook from "../../assets/Group 264.png";
-import Twitter from "../../assets/Group 265.png";
-import Google from "../../assets/Group 266.png";
-import Apple from "../../assets/Group 549.png";
+import INS from "../../assets/INS.png";
+import FaceBook from "../../assets/FaceBook.png";
+import Twitter from "../../assets/Twitter.png";
+import Google from "../../assets/Google.png";
+import Apple from "../../assets/Apple.png";
 import "./style.css";
 
 export default function ContinueWith() {

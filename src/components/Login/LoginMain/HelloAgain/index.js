@@ -19,9 +19,9 @@ onNext}) {
         <div>
             <LoginInput title='Email' value={email} placeholder='Enter Your Email' id='Email' />
         </div>
-        <div className="helloagain-password">
+        <div className="hello-again-password">
             <LoginInput title='Password' value={password} placeholder='Enter Your Password' id='Password' />
-            <div className="helloagain-forgotpassword" onClick={onClick}>Forgot password?</div>
+            <div className="hello-again-forgotpassword" onClick={onClick}>Forgot password?</div>
         </div>
         <div>
             <RedButton value='Login' id='Login' onClick={onNext} /></div>

@@ -1,4 +1,4 @@
-.otherway-login-frame{
+.other-way-login-frame{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     align-content: center;
     margin-top: 40px;
 }
-.otherway-login-notice{
+.other-way-login-notice{
     /* width: 114px; */
     height: 16px;
     font-family: 'Inter';
@@ -19,7 +19,7 @@
     margin-bottom: 10px;
 }
 
-.otherway-login-logo img{
+.other-way-login-logo img{
     width: 40px;
     height: 40px;
     font-family: 'Inter';
