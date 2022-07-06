@@ -1,0 +1,11 @@
+.textnotice-frame {
+    width: 350px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #6C747F;
+    margin: 35px;
+    text-align: left;
+}

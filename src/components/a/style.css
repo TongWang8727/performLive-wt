@@ -1,0 +1,19 @@
+.link {
+    font-family: 'Inter';
+    color: #00A8B2;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.link-notice {
+    /* width: 286px; */
+    height: 24px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #565D66;
+    margin: 30px;
+}

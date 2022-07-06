@@ -1,0 +1,13 @@
+.backtooginBtn-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #565D66;
+    margin: 35px;
+}

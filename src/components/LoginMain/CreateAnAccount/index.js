@@ -6,22 +6,23 @@ import Interlinkage from "../../a"
 
 
 import { useState } from "react"
-export default function HelloAgain() {
+export default function CreateAnAccount() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     return (<>
 
         <div>
-            <LoginTitle value='Hello again!' />
+            <LoginTitle value='Create an account' />
         </div>
         <div>
             <LoginInput title='Email' value={email} placeholder='Enter Your Email' id='Email' />
         </div>
         <div>
             <LoginInput title='Password' value={password} placeholder='Enter Your Password' id='Password' />
+            <LoginInput title='' value={password} placeholder='Confirm Your Password' id='Confirm-Password' />
         </div>
         <div>
-            <RedButton value='Login' id='Login' /></div>
+            <RedButton value='Register' id='Register' /></div>
         <div>
             <ContinueWith />
         </div>
