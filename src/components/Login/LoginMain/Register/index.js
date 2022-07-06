@@ -21,7 +21,8 @@ export default function Register({onClick}) {
             <LoginInput title='' value={password} placeholder='Confirm Your Password' id='Confirm-Password' className='confirm-password'/>
         </div>
         <div>
-            <RedButton value='Register' id='Register' onClick={onClick}/></div>
+            <RedButton value='Register' id='Register' onClick={onClick}/>
+        </div>
         <div>
             <ContinueWith />
         </div>
