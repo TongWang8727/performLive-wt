@@ -1,0 +1,11 @@
+.IconButton-frame{
+    height: 33px;
+    width: 169px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #B8284E 0%, #A01F42 100%);
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}

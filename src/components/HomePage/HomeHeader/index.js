@@ -3,9 +3,9 @@ import Menu from "../../../assets/Group 1823.png";
 import Cart from "../../../assets/Group 1804.png";
 import "./style.css";
 import HeaderSearch from "../../HeaderSearch";
-import RedButton from "../../Button/index"
+import IconButton from "../../Button/IconButton";
 
-export default function LoginHeader() {
+export default function HomeHeader() {
   return (
     <>
       <div className="homeheader-frame">
@@ -20,7 +20,7 @@ export default function LoginHeader() {
             <img src={Cart} alt=""/>
         </div>
         <div className="homeheader-redbtn">
-            <RedButton/>
+            <IconButton/>
         </div>
 
       </div>
