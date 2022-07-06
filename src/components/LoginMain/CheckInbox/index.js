@@ -1,11 +1,8 @@
 import LoginTitle from "../../Title/LoginTitle"
 import TextNotice from "../../noice"
-import LoginInput from "../../Input/LoginInput"
 import RedButton from "../../Button"
-import { useState } from "react"
 
 export default function CheckYourInbox() {
-    const [inputValue, setInputValue] = useState('')
     return (<>
         <div>
             <LoginTitle value='Check Your Inbox!' />

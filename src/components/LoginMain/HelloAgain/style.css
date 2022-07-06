@@ -1,0 +1,18 @@
+.helloagain-password{
+    position: relative;
+}
+
+.helloagain-forgotpassword{
+    position: absolute;
+    left: 265px;
+    top: -3px;
+    font-family: Graphik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #41464D;
+
+
+}

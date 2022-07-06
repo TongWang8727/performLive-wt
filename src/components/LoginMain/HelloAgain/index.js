@@ -2,11 +2,12 @@ import LoginTitle from "../../Title/LoginTitle"
 import LoginInput from "../../Input/LoginInput"
 import RedButton from "../../Button"
 import ContinueWith from "../../ContinueWith"
-import Interlinkage from "../../a"
+import "./style.css";
 
 
 import { useState } from "react"
-export default function HelloAgain() {
+export default function HelloAgain({onClick,
+onNext}) {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     return (<>
@@ -15,13 +16,14 @@ export default function HelloAgain() {
             <LoginTitle value='Hello again!' />
         </div>
         <div>
-            <LoginInput title='Email' value={email} placeholder='Enter Your Email' id='Email' />
+            <LoginInput title='Email' value={email} placeholder='Enter Your Email' id='Email' onChange={(e)=>{setEmail(e.target.value)}}/>
         </div>
-        <div>
+        <div className="helloagain-password">
             <LoginInput title='Password' value={password} placeholder='Enter Your Password' id='Password' />
+            <div className="helloagain-forgotpassword" onClick={onClick}>Forgot password?</div>
         </div>
         <div>
-            <RedButton value='Login' id='Login' /></div>
+            <RedButton value='Login' id='Login' onClick={onNext} /></div>
         <div>
             <ContinueWith />
         </div>

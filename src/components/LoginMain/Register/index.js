@@ -2,11 +2,10 @@ import LoginTitle from "../../Title/LoginTitle"
 import LoginInput from "../../Input/LoginInput"
 import RedButton from "../../Button"
 import ContinueWith from "../../ContinueWith"
-import Interlinkage from "../../a"
 
 
 import { useState } from "react"
-export default function CreateAnAccount() {
+export default function Register() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     return (<>
