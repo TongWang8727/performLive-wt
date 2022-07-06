@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Search from "../../../assets/Group 2048.png";
+import Search from "../../assets/Group 2048.png";
 import './style.css'
-export default function LoginHeaderSearch() {
+export default function HeaderSearch() {
     const [value,setValue]=useState('')
 
     const handleSearchChange=(e)=>{

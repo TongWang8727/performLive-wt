@@ -1,11 +1,11 @@
 import Vector from '../../../assets/Vector.png'
 import "./style.css";
 
-export default function BackToLoginBtn(){
+export default function BackToLoginBtn({onClick}){
     return(<>
       <div className='backtooginBtn-frame'>
-          <img src={Vector} alt=''/>
-          <div>Back to Login</div>
+          <img src={Vector} alt='' onClick={onClick}/>
+          <div onClick={onClick}>Back to Login</div>
       </div>
     </>)
 }

@@ -1,6 +1,6 @@
-import LoginHeader from "../../components/LoginHeader/index";
-import LoginMain from "../../components/LoginMain/index";
-import LoginFooter from "../../components/LoginFooter";
+import LoginHeader from "../../components/Login/LoginHeader/index"
+import LoginMain from "../../components/Login/LoginMain/index";
+import LoginFooter from "../../components/Login/LoginFooter";
 
 import './style.css'
 export default function Login() {

@@ -1,8 +1,8 @@
-import Logo from "../../assets/Group 1825.png";
-import Menu from "../../assets/Group 1823.png";
-import Cart from "../../assets/Group 1804.png";
+import Logo from "../../../assets/Group 1825.png";
+import Menu from "../../../assets/Group 1823.png";
+import Cart from "../../../assets/Group 1804.png";
 import "./style.css";
-import LoginHeaderSearch from "../LoginHeader/LoginHeaderSearch/index"
+import HeaderSearch from "../../HeaderSearch";
 
 export default function LoginHeader() {
   return (
@@ -13,7 +13,7 @@ export default function LoginHeader() {
           <div className="loginheader-left-logo"><img src={Logo} alt=""/></div>
         </div>
         <div>
-            <LoginHeaderSearch/>
+            <HeaderSearch/>
         </div>
         <div className="loginheader-right-cart">
             <img src={Cart} alt=""/>

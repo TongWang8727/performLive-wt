@@ -1,15 +1,15 @@
-import BackToLoginBtn from "../../Button/BackToLogin"
-import LoginTitle from "../../Title/LoginTitle"
-import TextNotice from "../../noice"
-import LoginInput from "../../Input/LoginInput"
-import RedButton from "../../Button"
+import BackToLoginBtn from "../../../Button/BackToLogin"
+import LoginTitle from "../../../Title/LoginTitle"
+import TextNotice from "../../../noice"
+import LoginInput from "../../../Input/LoginInput"
+import RedButton from "../../../Button"
 import { useState } from "react"
 
-export default function ForgotPassword() {
+export default function ForgotPassword({onClick,onBack}) {
     const [inputValue, setInputValue] = useState('')
     return (<>
         <div>
-            <BackToLoginBtn />
+            <BackToLoginBtn onClick={onBack}/>
         </div>
         <div>
             <LoginTitle value='Forgot password?' />
@@ -21,7 +21,7 @@ export default function ForgotPassword() {
             <LoginInput title='Email' value={inputValue} placeholder='Enter Your Email' id='Email' />
         </div>
         <div>
-            <RedButton value='Reset My Password' id='Reset-My-Password' /></div>
+            <RedButton value='Reset My Password' id='Reset-My-Password' onClick={onClick}/></div>
         <div></div>
     </>)
 

@@ -1,0 +1,10 @@
+.confirm-password{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.register-password{
+    position: relative;
+    margin-bottom: 65px;
+}
