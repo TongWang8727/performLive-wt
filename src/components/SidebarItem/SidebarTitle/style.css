@@ -1,0 +1,11 @@
+.sidebar-title{
+    position: absolute;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #909CA4;
+    margin: 7px;
+}

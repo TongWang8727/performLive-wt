@@ -21,11 +21,13 @@ export default function HomeHeader() {
         <div>
           <HeaderSearch />
         </div>
-        <div className="home-header-right-cart">
-          <img src={Cart} alt="" />
-        </div>
-        <div className="home-header-redbtn">
-          <IconButton style="left" value="New Performance" src={Add} />
+        <div className="home-header-right">
+          <div className="home-header-right-cart">
+            <img src={Cart} alt="" />
+          </div>
+          <div className="home-header-redbtn">
+            <IconButton style="left" value="New Performance" src={Add} />
+          </div>
         </div>
       </div>
     </>

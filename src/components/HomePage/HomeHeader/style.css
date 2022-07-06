@@ -27,7 +27,7 @@
 .home-header-right-cart{
     width: 33px;
     height: 33px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .home-header-redbtn{
@@ -44,4 +44,13 @@
     width: 169px;
     border-radius: 2px;
 
+}
+
+.home-header-right{
+    height: 33px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
 }

@@ -1,0 +1,21 @@
+.sidebar-menu-item-frame{
+    height: 25px;
+    width: 231px;
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.sidebar-menu-item-title{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    color: #41464D;
+
+}

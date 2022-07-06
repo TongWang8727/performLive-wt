@@ -10,3 +10,28 @@
     align-content: space-between;
     margin: 10px;
 }
+
+.icon-button-frame img{
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    margin-top: 10px;
+
+}
+
+.icon-button-text{
+    height: 26px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    margin-top: 2px;
+}
