@@ -13,7 +13,7 @@ export default function LoginMain() {
 
   const handleRegister = () => {
     setIsLogin(false);
-    setIsRegister(true)
+    setIsRegister(true);
   };
 
   const handleForgotPassword = () => {
@@ -23,36 +23,37 @@ export default function LoginMain() {
 
   const handleLogin = () => {
     console.log(222);
-    
   };
 
-  const handleResetPassword=()=>{
-    setIsForgotPassword(false)
-    setIsCheckInbox(true)
-  }
+  const handleResetPassword = () => {
+    setIsForgotPassword(false);
+    setIsCheckInbox(true);
+  };
 
-  const handleReturnToLogin=()=>{
-    setIsCheckInbox(false)
-    setIsLogin(true)
-  }
-  const handleBackToLogin=()=>{
-    setIsRegister(false)
-    setIsForgotPassword(false)
-    setIsLogin(true)
-  }
+  const handleReturnToLogin = () => {
+    setIsCheckInbox(false);
+    setIsLogin(true);
+  };
+  const handleBackToLogin = () => {
+    setIsRegister(false);
+    setIsForgotPassword(false);
+    setIsLogin(true);
+  };
   return (
     <>
       <div className="login-main-frame">
         <div className="login-main-context">
           {isLogin && (
-            <HelloAgain
-              onClick={handleForgotPassword}
-              onNext={handleLogin}
+            <HelloAgain onClick={handleForgotPassword} onNext={handleLogin} />
+          )}
+          {isForgotPassword && (
+            <ForgotPassword
+              onClick={handleResetPassword}
+              onBack={handleBackToLogin}
             />
           )}
-          {isForgotPassword && <ForgotPassword onClick={handleResetPassword} onBack={handleBackToLogin}/>}
-          {isCheckInbox && <CheckInbox onClick={handleReturnToLogin}/>}
-          {isRegister && <Register onClick={handleBackToLogin}/>}
+          {isCheckInbox && <CheckInbox onClick={handleReturnToLogin} />}
+          {isRegister && <Register onClick={handleBackToLogin} />}
         </div>
         {isLogin && (
           <div>

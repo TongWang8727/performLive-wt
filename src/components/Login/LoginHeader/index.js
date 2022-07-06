@@ -9,16 +9,19 @@ export default function LoginHeader() {
     <>
       <div className="login-header-frame">
         <div className="login-header-left">
-          <div className="login-header-left-menu"><img src={Menu} alt="" /></div>
-          <div className="login-header-left-logo"><img src={Logo} alt=""/></div>
+          <div className="login-header-left-menu">
+            <img src={Menu} alt="" />
+          </div>
+          <div className="login-header-left-logo">
+            <img src={Logo} alt="" />
+          </div>
         </div>
         <div>
-            <HeaderSearch/>
+          <HeaderSearch />
         </div>
         <div className="login-header-right-cart">
-            <img src={Cart} alt=""/>
+          <img src={Cart} alt="" />
         </div>
-
       </div>
     </>
   );

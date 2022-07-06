@@ -1,8 +1,8 @@
-import LoginHeader from "../../components/Login/LoginHeader/index"
+import LoginHeader from "../../components/Login/LoginHeader/index";
 import LoginMain from "../../components/Login/LoginMain/index";
 import LoginFooter from "../../components/Login/LoginFooter";
 
-import './style.css'
+import "./style.css";
 export default function Login() {
   return (
     <>
@@ -10,10 +10,10 @@ export default function Login() {
         <LoginHeader />
       </div>
       <div>
-        <LoginMain/>
+        <LoginMain />
       </div>
       <div>
-        <LoginFooter/>
+        <LoginFooter />
       </div>
     </>
   );
