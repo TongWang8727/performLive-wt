@@ -4,6 +4,12 @@
     justify-content: left;
     align-content: center;
 }
+.video-display-for-one-img img{
+    height: 177px;
+    width: 266px;
+    border-radius: 6px;
+
+}
 
 .video-display-for-one-title{
     display: flex;

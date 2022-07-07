@@ -22,7 +22,7 @@
 
 }
 
-.sidebar-menu-item-title:hover{
+.sidebar-menu-item-title-active{
     font-family: 'Graphik';
     font-style: normal;
     font-weight: 600;
@@ -38,7 +38,7 @@
     height: 18px;
     margin-right: 18px;
 }
-.sidebar-menu-item-frame:hover{
+.sidebar-menu-item-frame-active{
     height: 25px;
     width: 210px;
     background: #FFF2F4;
