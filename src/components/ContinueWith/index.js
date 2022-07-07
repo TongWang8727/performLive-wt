@@ -8,9 +8,9 @@ import "./style.css";
 export default function ContinueWith() {
   return (
     <>
-      <div className="otherway-login-frame">
-        <div className="otherway-login-notice">Or continue with</div>
-        <div className="otherway-login-logo">
+      <div className="other-way-login-frame">
+        <div className="other-way-login-notice">Or continue with</div>
+        <div className="other-way-login-logo">
           <img src={Google} alt="" />
           <img src={FaceBook} alt="" />
           <img src={INS} alt="" />

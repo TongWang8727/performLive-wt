@@ -5,6 +5,7 @@ import CheckInbox from "./CheckInbox";
 import Register from "./Register";
 import Interlinkage from "../../a";
 import { useState } from "react";
+import { useRoutes } from 'react-router-dom'
 export default function LoginMain() {
   const [isLogin, setIsLogin] = useState(true);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
@@ -19,10 +20,6 @@ export default function LoginMain() {
   const handleForgotPassword = () => {
     setIsLogin(false);
     setIsForgotPassword(true);
-  };
-
-  const handleLogin = () => {
-    console.log(222);
   };
 
   const handleResetPassword = () => {
@@ -44,7 +41,7 @@ export default function LoginMain() {
       <div className="login-main-frame">
         <div className="login-main-context">
           {isLogin && (
-            <HelloAgain onClick={handleForgotPassword} onNext={handleLogin} />
+            <HelloAgain onClick={handleForgotPassword}  />
           )}
           {isForgotPassword && (
             <ForgotPassword

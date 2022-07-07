@@ -1,0 +1,14 @@
+.video-display-for-one-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+}
+
+.video-display-for-one-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+    margin-left: 10px;
+}

@@ -2,10 +2,11 @@ import LoginTitle from "../../../Title/LoginTitle";
 import LoginInput from "../../../Input/LoginInput";
 import RedButton from "../../../Button";
 import ContinueWith from "../../../ContinueWith";
+import { Link } from 'react-router-dom'
 import "./style.css";
 
 import { useState } from "react";
-export default function HelloAgain({ onClick, onNext }) {
+export default function HelloAgain({ onClick}) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -34,7 +35,7 @@ export default function HelloAgain({ onClick, onNext }) {
         </div>
       </div>
       <div>
-        <RedButton value="Login" id="Login" onClick={onNext} />
+        <Link to="/HomePage"><RedButton value="Login" id="Login" /></Link>
       </div>
       <div>
         <ContinueWith />

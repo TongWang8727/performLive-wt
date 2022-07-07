@@ -6,13 +6,13 @@ import HomePage from './scenes/HomePage';
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/mainindex" element={<Referrals />} />
+          <Route path="/HomePage" element={<HomePage />} />
         </Routes>
-      </Router> */}
-      <HomePage/>
+      </Router>
+      {/* <HomePage/> */}
     </div>
   );
 }

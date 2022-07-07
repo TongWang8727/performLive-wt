@@ -1,5 +1,6 @@
 .home-page-frame{
     position: relative;
+    
 }
 .home-page-siderbar{
     position: absolute;
@@ -11,4 +12,7 @@
     position: absolute;
     left: 261px;
     top: 56px;
+    width: 82%;
+    margin: 30px;
+    
 }
