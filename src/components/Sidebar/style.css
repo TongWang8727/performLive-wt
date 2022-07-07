@@ -1,0 +1,9 @@
+.sidebar-frame{
+    width: 256px;
+    height: 946px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}

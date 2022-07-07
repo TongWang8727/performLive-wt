@@ -1,0 +1,17 @@
+.sidebar-item-frame{
+    height: 546px;
+    width: 256px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    background-color: #fff;
+}
+.sidebar-team{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 231px;
+    text-align: left;
+}

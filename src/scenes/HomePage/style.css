@@ -1,0 +1,14 @@
+.home-page-frame{
+    position: relative;
+}
+.home-page-siderbar{
+    position: absolute;
+    left: 0;
+    top: 56px;
+}
+
+.home-page-main{
+    position: absolute;
+    left: 261px;
+    top: 56px;
+}
