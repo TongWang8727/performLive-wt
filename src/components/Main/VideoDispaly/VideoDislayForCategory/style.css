@@ -9,3 +9,9 @@
     color: #17191B;   
     margin-left: 7px;
 }
+.video-display-for-category-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+}
