@@ -1,0 +1,42 @@
+.performance-subtitle-frame{
+    height: 50px;
+    width: 100%;
+    background: #E0E4E8;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.performance-subtitle-btn{
+    height: 15px;
+    width: 120px;
+    margin-left: 20px;
+}
+.performance-subtitle-title{
+    Width:200px;
+    Height:18px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2C2F34;
+    /* color: black; */
+}
+.performance-subtitle-step{
+    Width:65px;
+    Height:14px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: right;
+    color: #565D66;
+    margin-right: 20px;
+    
+}
+

@@ -5,6 +5,7 @@ import "./style.css";
 import HeaderSearch from "../../HeaderSearch";
 import IconButton from "../../Button/IconButton";
 import Add from "../../../assets/Add.png";
+import { Link } from 'react-router-dom'
 
 export default function HomeHeader() {
   return (
@@ -26,7 +27,7 @@ export default function HomeHeader() {
             <img src={Cart} alt="" />
           </div>
           <div className="home-header-redbtn">
-            <IconButton style="left" value="New Performance" src={Add} />
+            <Link to="/CreatePerformancePage"><IconButton style="left" value="New Performance" src={Add} /></Link>
           </div>
         </div>
       </div>
