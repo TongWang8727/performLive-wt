@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./style.css";
 export default function LoginInput({
   title,
@@ -8,11 +8,6 @@ export default function LoginInput({
   onchange,
   className,
 }) {
-  const [ivalue, setIvalue] = useState("");
-  const handleChange = (e) => {
-    setIvalue(e.target.value);
-  };
-
   return (
     <>
       <div className="login-input-frame">
@@ -20,9 +15,9 @@ export default function LoginInput({
         <div className="login-input-input">
           <input
             placeholder={placeholder}
-            value={ivalue}
+            value={value}
             id={id}
-            onChange={handleChange}
+            onChange={onchange || value}
             className={className}
           />
         </div>

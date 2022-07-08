@@ -5,7 +5,6 @@ import CheckInbox from "./CheckInbox";
 import Register from "./Register";
 import Interlinkage from "../../a";
 import { useState } from "react";
-import { useRoutes } from 'react-router-dom'
 export default function LoginMain() {
   const [isLogin, setIsLogin] = useState(true);
   const [isForgotPassword, setIsForgotPassword] = useState(false);

@@ -49,4 +49,17 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: space-around;
+    border-radius: 6px;
+    padding: px;
+    display: flex;
+}
+
+.sidebar-menu-item-frame-active img{
+    width: 19px;
+    height: 18px;
+    margin-right: 18px;
 }
